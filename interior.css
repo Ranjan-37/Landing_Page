@@ -1,0 +1,115 @@
+*{
+   padding: 0; margin: 0;box-sizing: border-box;
+}
+
+.body
+{
+   background-image: url('interior_designer.jpg');
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+}
+
+header
+{
+   width: 100%;
+   min-height: 100vh;
+   font-family: sans-serif;
+   position: relative;
+}
+
+nav
+{
+   position: absolute;
+   top: 0;
+   z-index: 99;
+   width: 100%;
+   height: 69px;
+   background: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:0 70px;
+   font-weight: bold;
+}
+
+.logo
+{
+   font-size: 1.5em;
+   letter-spacing: 2px;
+}
+
+.logo span
+{
+   color: #2ecc71;
+}
+
+.menu a
+{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding: 10px 20px;
+   text-transform: uppercase;
+}
+
+.menu a:first-child
+{
+   color: #2ecc71;
+}
+
+.menu a:hover
+{
+   color: #2ecc71;
+}
+
+.icons i
+{
+   margin: 0 10px;
+   font-size: 15px;
+   color: black;
+   padding: 15px;
+   border-radius: 8px;
+   border: 1px solid gray;
+   transition: 0.4s;
+}
+
+.icons i:hover
+{
+   color: white;
+   background: #2ecc71;
+   cursor: pointer;
+}
+
+#bedroom
+{
+   position: absolute;
+   max-width: 100%;
+   top: 10%;
+   bottom: 11%;
+   left: 0%;
+}
+
+.Head_text
+{
+   position: absolute;
+   top:30%;
+   left: 5%;
+   max-width: 600px;
+   z-index: 99;
+   background: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(10px);
+}
+
+.Head_text h1
+{
+   font-size: 4.1em;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+
+.Head_text h1 span
+{
+   color: #2ecc71;
+   text-shadow: 2px 3px 5px white;
+}
